@@ -1,57 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Brent Fitzgerald</title>
-  <meta name="description" content="A small studio for 2d graphics">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style type="text/css">
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-    }
-    body {
-      background: white;
-      margin: 2rem;
-      text-align: center;
-    }
-    img {
-      max-width: 1024px;
-      min-width: 100px;
-      display: block;
-      margin: 2rem auto;
-      width: 100%
-    }
-  </style>
-</head>
-<body>
+---
+layout: default
+---
 
-  <h1>l-systems</h1>
+<div class="home">
 
-  <img data-original="images/thumbs/donut-009c2173237056ed7ec0b821c91e359278cbc95f-1024.png">
-  <img data-original="images/thumbs/depth-ecb8410f6a6269ed118c2eaf14859ef0581b15d7-1024.png">
-  <img data-original="images/thumbs/orbits-83b24fe471cee0ba30de81fad084f34bc5e35071-1024.png">
-  <img data-original="images/thumbs/colony-88d00d659aac4bd941641787cdf4d2413e691c36-1024.png">
-  <img data-original="images/thumbs/scaffold-e9efe76cdcde1e9f552cd2f96d8d5ecabbb5bbdd-1024.png">
-  <img data-original="images/thumbs/feather-6f67df2403598d61b921abaa972ed1529708a451-1024.png">
-  <img data-original="images/thumbs/shell-99f05ee74c2d37842d96d7b8e32a3edda8620283-1024.png">
-  <img data-original="images/thumbs/tri-803bfeaf9996091bddc94dd059919ff9e188f9d1-1024.png">
-  <img data-original="images/thumbs/the-city-1a3a13141f6e2f57c0f787459ddd88ddef9dc088-1024.png">
-  <img data-original="images/thumbs/fall-108005c1db3b65598916e1ea48c641597d64ae2e-1024.png">
-  <img data-original="images/thumbs/qbert-color-0d9bb2f81058f10fc8e6a64280d4b317f1dbd021-1024.png">
-  <img data-original="images/thumbs/tight-hex-917060b047f029df1e413b2d9c75f5449ea380bf-1024.png">
-  <img data-original="images/thumbs/bilateral-e64a8c483af5d8e2303043f8674a22ff0291e860-1024.png">
+  <h1 class="page-heading">Posts</h1>
 
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="scripts/jquery.scrollstop.min.js"></script>
-  <script src="scripts/jquery.lazyload.min.js"></script>
-  <script>
-    $(function() {
-      $("img").attr("src", "images/1x1.gif").lazyload({
-        effect : "fadeIn"
-      });
-    });
-  </script>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-</body>
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
