@@ -11,3 +11,6 @@ url:                 http://brentfitzgerald.com
 baseurl:             ''
 paginate:            5
 
+gems:
+  - jekyll-sitemap
+
