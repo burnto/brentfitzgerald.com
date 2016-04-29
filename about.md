@@ -7,7 +7,7 @@ I am a programmer and technical product designer based in Oakland, CA.
 
 ## Work
 
-Over the past five years, I have been involved in payment technology with a focus on mobile and developer products. I have spend the last two years with [Braintree](https://braintreepayments.com) in San Franicsco. My area of focus has been [developer experience](https://developers.braintreepayments.com/); my team gives programmers the tools, APIs, and documentation needed to accept payments in mobile or web apps.
+Over the past five years, I have been involved in payment technology with a focus on mobile and developer products. I have spent the last two years with [Braintree](https://braintreepayments.com) in San Franicsco. My area of focus has been [developer experience](https://developers.braintreepayments.com/); my team provides programmers the tools, APIs, and documentation needed to accept payments in mobile or web apps.
 
 As an engineering lead and manager, I encourage my colleagues to:
 
