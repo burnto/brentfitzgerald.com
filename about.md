@@ -25,4 +25,4 @@ See also [some code](https://github.com/burnto) and [work experience](https://ww
 
 ## Life
 
-I live with my wife and kids in [Temescal](https://en.wikipedia.org/wiki/Temescal,_Oakland,_California), where I enjoy gardening, drinking coffee, cooking, riding bikes, and reading books.
+I live with my family in [Temescal](https://en.wikipedia.org/wiki/Temescal,_Oakland,_California) where I enjoy working in the yard and steam cleaning my floors.
