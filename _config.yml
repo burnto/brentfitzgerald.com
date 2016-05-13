@@ -13,5 +13,8 @@ paginate:            5
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 analytics_id:        UA-452652-1
+
+repository: burnto/brentfitzgerald.com
