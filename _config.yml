@@ -5,11 +5,11 @@ permalink:           pretty
 
 # Setup
 title:               Brent Fitzgerald 
-# tagline:             'A Jekyll theme'
-description:         'This is my website'
+tagline:             ''
+description:         'Software developer in Oakland, CA, USA'
 url:                 http://brentfitzgerald.com
 baseurl:             ''
-paginate:            5
+paginate:            1
 
 gems:
   - jekyll-sitemap
@@ -18,3 +18,11 @@ gems:
 analytics_id:        UA-452652-1
 
 repository: burnto/brentfitzgerald.com
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
