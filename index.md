@@ -1,16 +1,15 @@
 ---
 title: Home
-layout: page 
+layout: default
 ---
 
-I am a software engineer and designer leading teams creating new types of products. 
+Hi, I am a software engineer and designer who works with teams to create impactful technology products. 
 
-[More about me](/about)
+[More about me&hellip;](/about)
 
 ## Posts 
 
 {% for post in site.posts %}  
-[{{post.title}}]({{post.url}})
-<small>{{ post.date | date: "%B %Y" }}</small>
+- [{{post.title}}]({{post.url}}) <small>{{ post.date | date: "%B %Y" }}</small>
 {% endfor %}  
 
