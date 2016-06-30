@@ -3,7 +3,9 @@ title: Home
 layout: default
 ---
 
-Hi, I am a software engineer and designer who works with teams to create impactful technology products. 
+# Brent Fitzgerald
+
+I am a software engineer and designer who works with teams to create impactful technology products. 
 
 [More about me&hellip;](/about)
 
