@@ -5,7 +5,7 @@ title: About
 
 # Brent Fitzgerald
 
-I am a programmer and technical product designer based in Oakland, CA.
+I am a programmer and technology manager based in Oakland, CA.
 
 For the past five years I've worked on payment technology, with a focus on mobile and developer products. If you've ever paid for something in an app, chances are pretty good that you used my work.
 
