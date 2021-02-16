@@ -30,7 +30,7 @@ For the past 9 years I've worked on payments, with a focus on mobile and develop
 
 Most recently, I have worked with [Braintree](https://braintreepayments.com) as an engineer, manager, and leader. I was previously the first hire at [card.io](https://card.io). We were acquired by [PayPal](https://paypal.com/). In the more distant past, I founded an experimental technology design company, worked at a few startups, and built art economies and programmatic contracts at the [MIT Media Lab](https://www.media.mit.edu/).
 
-# Leading teams
+## Leading teams
 
 I try to cultivate organizations so that team members feel a sense of pride and identity, leaders learn and develop, and unexpected new ideas emerge. 
 
