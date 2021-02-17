@@ -5,7 +5,7 @@ layout: default
 
 # Welcome! 👽
 
-Hi, I'm Brent Fitzgerald, and you've found my little corner of the web. If you want to learn a bit about me this is a good starting point. 
+Hi, I'm Brent Fitzgerald. You've found my little corner of the web. You can learn about me here. Feel free to also [drop me a note](mailto:&#098;+&#119;&#101;&#098;&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#098;&#114;&#101;&#110;&#116;&#102;&#105;&#116;&#122;&#103;&#101;&#114;&#097;&#108;&#100;&#046;&#099;&#111;&#109;).
 
 ## Status
 
@@ -29,7 +29,7 @@ Most recently, I have worked with [Braintree](https://braintreepayments.com) as 
 
 ## Past posts
 
-{% for post in site.posts %}  
+{% for post in site.posts -%}
 - [{{post.title}}]({{post.url}})
 {% endfor %}  
 
