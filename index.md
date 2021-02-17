@@ -3,15 +3,13 @@ title: Home
 layout: default
 ---
 
-# Welcome!
+# Welcome! 👽
 
-Hi, I'm Brent Fitzgerald, and you've found my little corner of the web. 🌈
+Hi, I'm Brent Fitzgerald, and you've found my little corner of the web. If you want to learn a bit about me this is a good starting point. 
 
-If you want to learn a bit about me this is a good starting point. 
+## Status
 
-## Current status
-
-I'm thinking about and working on new stuff. Interests include:
+I recently decided to take a break to work on new ideas. I've been thinking about:
 
 - Tools for new commerce patterns
 - Ethical credit / fintech
@@ -32,7 +30,7 @@ Most recently, I have worked with [Braintree](https://braintreepayments.com) as 
 ## Past posts
 
 {% for post in site.posts %}  
-- [{{post.title}}]({{post.url}}) <small>{{ post.date | date: "%B %Y" }}</small>
+- [{{post.title}}]({{post.url}})
 {% endfor %}  
 
 ## See also
