@@ -8,7 +8,7 @@ $text-color-dark: #222;
 
 body {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   background-color: #fff;
   color: $text-color;
   font-family: 'Merriweather', serif;
@@ -16,7 +16,7 @@ body {
 }
 
 div.container {
-  max-width: 32em;
+  max-width: 40em;
   margin: 1em auto;
 }
 
@@ -43,6 +43,8 @@ h2, p, li {
 
 ul li {
   list-style-type: circle; 
+  margin-left: 1.4em;
+  padding-left: .4em;
 }
 
 ol {
