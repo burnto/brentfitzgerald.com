@@ -13,5 +13,3 @@ As a leader, the recipe for a great innovative team isn't surprising or secret:
 - Ensure a meaningful mission.
 - Communicate simply and clearly.
 - Maintain humility and a sense of humor.
-
-But it's still a lot of work. :)
